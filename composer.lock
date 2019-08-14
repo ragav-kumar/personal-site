@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "117f3dea54f2c40bcc97f88cc8977bc4",
+    "content-hash": "62e24b50d062afe36972453f8c754dcb",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -4114,6 +4114,24 @@
             ],
             "description": "Programmatically edit a wp-config.php file.",
             "time": "2019-04-01T15:03:00+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/better-rest-endpoints",
+            "version": "1.5.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/better-rest-endpoints/",
+                "reference": "tags/1.5.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/better-rest-endpoints.1.5.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/better-rest-endpoints/"
         }
     ],
     "packages-dev": [
