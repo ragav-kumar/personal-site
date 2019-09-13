@@ -1,0 +1,13 @@
+{
+  "files": {
+    "static/js/0.678809ab.chunk.js": "/app/themes/rkain-theme/static/js/0.678809ab.chunk.js",
+    "static/js/0.678809ab.chunk.js.map": "/app/themes/rkain-theme/static/js/0.678809ab.chunk.js.map",
+    "main.css": "/app/themes/rkain-theme/static/css/main.fbd09ccf.chunk.css",
+    "main.js": "/app/themes/rkain-theme/static/js/main.ebc1511f.chunk.js",
+    "main.css.map": "/app/themes/rkain-theme/static/css/main.fbd09ccf.chunk.css.map",
+    "main.js.map": "/app/themes/rkain-theme/static/js/main.ebc1511f.chunk.js.map",
+    "runtime~main.js": "/app/themes/rkain-theme/static/js/runtime~main.b676c0a7.js",
+    "runtime~main.js.map": "/app/themes/rkain-theme/static/js/runtime~main.b676c0a7.js.map",
+    "index.php": "/app/themes/rkain-theme/index.php"
+  }
+}
