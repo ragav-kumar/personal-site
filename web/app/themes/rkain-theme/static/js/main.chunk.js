@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
+(window["webpackJsonprkain-theme"] = window["webpackJsonprkain-theme"] || []).push([["main"],{
 
 /***/ "../../../../../../../xampp/htdocs/personal/web/app/themes/rkain-theme/react-src/node_modules/mini-css-extract-plugin/dist/loader.js?!../../../../../../../xampp/htdocs/personal/web/app/themes/rkain-theme/react-src/node_modules/css-loader/dist/cjs.js?!../../../../../../../xampp/htdocs/personal/web/app/themes/rkain-theme/react-src/node_modules/postcss-loader/src/index.js?!../../../../../../../xampp/htdocs/personal/web/app/themes/rkain-theme/react-src/src/index.css":
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -220,26 +220,23 @@ const PageWrap = props => {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-
 var content = __webpack_require__(/*! !../node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-3-1!../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-2!../node_modules/postcss-loader/src??postcss!./index.css */ "../../../../../../../xampp/htdocs/personal/web/app/themes/rkain-theme/react-src/node_modules/mini-css-extract-plugin/dist/loader.js?!../../../../../../../xampp/htdocs/personal/web/app/themes/rkain-theme/react-src/node_modules/css-loader/dist/cjs.js?!../../../../../../../xampp/htdocs/personal/web/app/themes/rkain-theme/react-src/node_modules/postcss-loader/src/index.js?!../../../../../../../xampp/htdocs/personal/web/app/themes/rkain-theme/react-src/src/index.css");
 
-if(typeof content === 'string') content = [[module.i, content, '']];
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
 
-var transform;
-var insertInto;
+var options = {}
 
+options.insert = "head";
+options.singleton = false;
 
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../../../../../../xampp/htdocs/personal/web/app/themes/rkain-theme/react-src/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
 
-var options = {"hmr":true}
+if (content.locals) {
+  module.exports = content.locals;
+}
 
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "../../../../../../../xampp/htdocs/personal/web/app/themes/rkain-theme/react-src/node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
 
 /***/ }),
 
@@ -390,4 +387,4 @@ module.exports = __webpack_require__(/*! D:\xampp\htdocs\personal\web\app\themes
 /***/ })
 
 },[[0,"runtime~main",0]]]);
-//# sourceMappingURL=main.ebc1511f.chunk.js.map
+//# sourceMappingURL=main.chunk.js.map
